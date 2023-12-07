@@ -66,7 +66,12 @@ def crud_insert(data: str):
 @staticmethod
 def _insert_customer(customer) -> None:
     """IDK why yall wrote it this way - but pass customer data in to this function"""
+   pass
+    #username = StringVar()
+    #username field = Entry(textvariable=username)
+   # username.get()
     crud_insert(data=insert_customer(customer))
+    
 
 
 # A method that calls _generic_insert with the params for Drivers
